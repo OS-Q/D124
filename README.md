@@ -8,7 +8,7 @@
 
 ## [平台描述](https://github.com/OS-Q/W28/wiki) 
 
-身份管控平台，用于管理各个边缘设备的身份和功能初始定义，构建自适应的网络环境
+身份管控核环境部署平台，用于管理各个边缘设备的身份和功能初始定义，构建自适应的网络环境
 
 ### [共用资源](OS-Q/)
 
@@ -22,17 +22,17 @@
 
 ## [包含设备](https://github.com/OS-Q/W28/wiki) 
 
-#### D190：[SD固件](https://github.com/OS-Q/D190)
+#### D190：[存储更新](https://github.com/OS-Q/D190)
 
 通过SD转移和传递固件烧录信息，实现初始构建
 
-#### D191：[串行固件](https://github.com/OS-Q/D191)
+#### D191：[串口更新](https://github.com/OS-Q/D191)
 
 通过串口接入设备实现固件管控，实现初始构建
 
-#### D192：[NULL](https://github.com/OS-Q/D192)
+#### D192：[烧录设备](https://github.com/OS-Q/D192)
 
-
+通过标准的扩展接口实现boot固件在线烧录管理
 
 #### D193：[NULL](https://github.com/OS-Q/D193)
 
