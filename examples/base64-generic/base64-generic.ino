@@ -1,6 +1,6 @@
 #include <QBase64.h>
 
-QBase64generic<80000> mybase64;
+QBase64generic<8000> mybase64;
 
 void setup() {
   Serial.begin(115200);
