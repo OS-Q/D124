@@ -1,7 +1,7 @@
 #ifndef _QBASE64_H
 #define _QBASE64_H
 
-#define QBASE64_MAX_DEFAULT_SIZE 100
+#define QBASE64_MAX_DEFAULT_SIZE 1000
 
 // Function to Calculate the Encoding Length from plain text length
 #define QBASE64_ENC_SIZECALC(X) ((X + 2 - ((X + 2) % 3)) / 3 * 4)
@@ -15,12 +15,12 @@
 // Error caused due to Invalid format
 #define QBASE64_STATUS_FORMAT 2
 
-/* b64_alphabet:
+/* base64_alphabet:
  *      Description: Base64 alphabet table, a mapping between integers
  *                   and base64 digits
  *      Notes: This is an extern here but is defined in Base64.c
  */
-extern const char b64_alphabet[];
+extern const char base64_alphabet[];
 
 /* base64_encode:
  *      Description:
@@ -92,6 +92,7 @@ size_t QBase64_dec_len(char *input, size_t inputLen);
  - sz parameter determines the Plain Text Size that is possible
 */
 template<size_t sz>
+
 class QBase64generic {
 	
 	private:
