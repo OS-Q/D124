@@ -1,7 +1,7 @@
 {
-  "name": "Base64",
-  "keywords": "Base64,",
-  "description": "Base64",
+  "name": "QBASE64",
+  "keywords": "QBASE64,",
+  "description": "QBASE64",
   "version": "1.0.0",
   "authors": {
     "name":  "qitas",
